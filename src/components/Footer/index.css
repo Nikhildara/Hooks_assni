@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-item{
+    background-color: aliceblue;
+    /* padding: 5px 10px; */
+    width: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
+    border-radius: 10px;
+    /* padding-left: 3px; */
+}
+.pagination-icons{
+    font-size: 15px;
+    height: 80%;
+}
+.pagination-item-icon{
+    background-color: aliceblue;
+    /* padding: 5px 10px; */
+    width: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
+    border-radius: 10px;
+    
+}
+
+.footer-con{
+    background-color: rgb(218, 230, 241);
+    padding: 0px 20px;
+    padding-top: 12px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    border: 1px solid white;
+}

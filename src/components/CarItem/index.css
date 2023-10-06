@@ -1,0 +1,112 @@
+.car-list-item{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    background-color: rgb(220, 231, 237);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0px 10px;
+    width: 420px;
+    height: 500px;
+    border: 1px solid white;
+    width: 30%;
+}
+
+.img-item{
+    width: 100%;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.title-year-con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.year{
+    color: rgb(27, 26, 26);
+    border: 2px dashed  rgb(67, 149, 211);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 3px 8px;
+}
+.sub-con{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+}
+
+.icon-list{
+    font-size: 15px;
+    color: rgb(67, 149, 211);
+}
+.sub-details{
+    font-size: 15px;
+    color: rgb(84, 84, 84);
+    font-weight: 500;
+    margin: 0px;
+}
+.detail-con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(27, 26, 26);
+
+}
+
+.rent{
+    font-size: 15px;
+    color: rgb(45, 45, 46);
+    margin: 5px 0px;
+}
+.span-rent{
+    font-size: 20px;
+}
+.priceRent-btn-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+.btn-love{
+    background-color: rgb(177, 225, 240);
+    border-radius: 8px;
+    padding: 2px 8px;
+    outline: none;
+}
+
+
+.rent-btn{
+    color: white;
+    background-color: rgb(48, 126, 235);
+    padding: 5px 12px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+.btn-con{
+    display: flex;
+    gap: 5px;
+}
+
+
+@media (min-width:1850px){
+    .car-list-item{
+        flex-grow: 0;
+    }
+}
+
+@media (max-width:900px){
+    .car-list-item{
+        flex-grow: 1;
+    }
+}
